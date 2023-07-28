@@ -1,0 +1,30 @@
+.textSend{
+    width: 85%;
+    height: 50px;
+    border: 0px;
+    outline: none;
+    background-color: #e8ebef;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.sendBarContainer{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.SendButton{
+    width: 80px;
+    height: 60px;
+    font-size: 14px;
+    background-color: #e8ebef;
+    border-radius: 7px;
+    border: 0px;
+    outline: none;
+}

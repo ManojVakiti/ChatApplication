@@ -1,0 +1,35 @@
+.FriendContainer{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 5px;
+
+}
+ 
+.onlineUser{
+    border: 2px #1BD741 solid;
+}
+
+.iconStyling{
+    color: #1BD741;
+    font-size: 20px;
+}
+
+.userImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.contentsContainer{
+    /* flex-grow: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

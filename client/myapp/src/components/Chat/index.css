@@ -1,0 +1,116 @@
+.bg-container-chat{
+    background-color: #1BD741;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noMargin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.verticalLine{
+    border-left: 2px solid #e8ebef;
+    margin-left: 30px;
+    height: 590px;
+}
+
+.ChatContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.chat-container{
+    background-color: white;
+    height: 90vh;
+    width: 80%;
+    border-radius: 15px;
+}
+.profile-details{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 15px;
+}
+
+.CombinedContainer{
+    overflow-y: auto;
+    height: 300px;
+    width: 25%;
+    
+}
+
+.searchContainer{
+    width: 100%;
+    position: sticky;
+    margin-left: 10px;
+}
+
+.searchBar{
+    width: 95%;
+    background-color: #e8ebef;
+    border: 0px;
+    outline: none;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.logoStyling{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.usersContainer{
+    max-height: 350px; 
+    overflow-y: auto;
+}
+
+.horizontalContainer{
+    display: flex;
+}
+
+.overflow{
+    display: flex;
+    overflow-y: auto;
+}
+
+.allUsers{
+    margin: 10px;
+}
+
+.Friends{
+    padding: 0px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.friendsContainer{
+    margin: 0px;
+    padding: 10px;
+    height: 400px;
+    width: 250px;
+   overflow-y: auto;
+}
+
+.ChatContainer{
+    height: 530px;
+    width: 100%;
+    border-color: black 20px solid;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.messagesContainer{
+    height: 80%;
+}
+.searchComponent{
+    height: 0%;
+}

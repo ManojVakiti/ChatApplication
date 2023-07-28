@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 30%;
+    height: 55%;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.bg-container{
+    background-color: #1BD741;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.textBoxStyling{
+    
+    background-color: #F2F2F2;
+    width: 60%;
+    border: 0px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+
+.buttonStyling{
+    height: 45px;
+    background-color: #1BD741;
+    color: white;
+    width: 65%;
+}
+.headingField{
+    color: white;
+}
+
+.errorText{
+    color: black;
+    font-size: 16px;
+    text-align: left;
+}
